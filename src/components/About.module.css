@@ -1,0 +1,83 @@
+
+
+.ava {
+    width: 250px;
+    height: 250px;
+}
+
+.ava:hover {
+
+}
+
+.main {
+    display: flex;
+}
+
+.con {
+
+}
+
+.name {
+    width: calc(100% - 250px);
+}
+
+.nameB {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMe {
+    margin-top: 25px;
+}
+
+.p {
+    text-indent: 20px;
+}
+
+.li {
+    color:darkgray;
+}
+
+.liElement {
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    .main {
+        display: block;
+        height: 100%;
+    }
+    .mainAva {
+        display: flex;
+        justify-content: center;
+    }
+    .ava {
+        height: 150px;
+        width: 150px;
+    }
+    .name {
+        width: 100%;
+    }
+
+    .con {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 320px) {
+    .main {
+        display: block;
+        height: 100%;
+        border: solid;
+
+    }
+    .mainAva {
+        display: flex;
+        justify-content: center;
+    }
+    .ava {
+        height: 75px;
+        width: 75px;
+    }
+}
