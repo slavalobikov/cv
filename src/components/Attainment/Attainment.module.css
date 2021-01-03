@@ -1,0 +1,25 @@
+.block {
+}
+
+.NameandAge {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p {
+    text-indent: 20px;
+}
+@media (max-width: 600px) {
+    .four {
+        visibility: hidden;
+    }
+}
+@media (max-width: 550px) {
+    .three {
+        visibility: hidden;
+    }
+}@media (max-width: 320px) {
+    .two {
+        visibility: hidden;
+    }
+}

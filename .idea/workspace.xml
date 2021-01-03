@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57e65ec7-339b-4b19-9d2e-0f580e96c5cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lang/Language.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/LangReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Redux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/About.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skills/Skills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img.png" afterDir="false" />
+    <list default="true" id="57e65ec7-339b-4b19-9d2e-0f580e96c5cb" name="Default Changelist" comment="initial">
+      <change afterPath="$PROJECT_DIR$/src/components/Attainment/Attainment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Attainment/Attainment.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../socialweb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,8 +68,17 @@
       <workItem from="1609511829244" duration="2488000" />
       <workItem from="1609517284393" duration="1136000" />
       <workItem from="1609518945815" duration="18109000" />
-      <workItem from="1609582190080" duration="5368000" />
+      <workItem from="1609582190080" duration="15805000" />
+      <workItem from="1609676079077" duration="1320000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1609588152236</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609588152236</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +95,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>

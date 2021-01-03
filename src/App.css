@@ -74,6 +74,7 @@
 
 .lang-input {
     position: relative;
+    cursor: pointer;
     width: 80px;
     height: 40px;
     -webkit-appearance: none;
@@ -111,6 +112,25 @@
     position: absolute;
     left: 90px;
     top:-10px;
+}
+
+@media (max-width: 450px) {
+    .lang-input {
+        width:40px;
+        height:20px;
+    }
+
+    .lang-input:before {
+        content: '';
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: -150px;
+    }
+
+    .lang-input:checked:before {
+        left:20px;
+    }
 }
 
 
