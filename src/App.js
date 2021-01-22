@@ -8,6 +8,7 @@ import {
     RocketOutlined,
     TrophyOutlined,
     AliwangwangOutlined,
+    AppstoreOutlined,
 } from '@ant-design/icons';
 
 import 'antd/dist/antd.css';
@@ -17,6 +18,7 @@ import About from "./components/About";
 import Skills from "./components/skills/Skills";
 import Attainment from "./components/Attainment/Attainment";
 import Contacts from "./components/Contacts/Contacts";
+import Projects from "./components/Project/Projects";
 
 
 const { Header, Sider, Content } = Layout;
@@ -68,6 +70,14 @@ class App extends React.Component {
                             </Link>
 
                         </Menu.Item>
+
+                        <Menu.Item key="5" icon={<AppstoreOutlined />}>
+                            <Link to={'/Projects'}>
+                                {!!this.props.english && <span>Projects</span>}
+                                {!this.props.english && <span>Проекты</span>}
+                            </Link>
+
+                        </Menu.Item>
                     </Menu>
                 </Sider>
                 <Layout className="site-layout">
@@ -94,6 +104,7 @@ class App extends React.Component {
                         <Route path={'/skills'} render={() => <Skills {...this.props} />} />
                         <Route path={'/attainment'} render={() => <Attainment {...this.props} />} />
                         <Route path={'/Contacts'} render={() => <Contacts {...this.props} />} />
+                        <Route path={'/Projects'} render={() => <Projects {...this.props}  />} />
                     </Content>
                 </Layout>
             </Layout>

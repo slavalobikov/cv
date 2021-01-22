@@ -23,6 +23,7 @@ const Skills = (props) => {
                 <li>FLUX</li>
                 <li>Webpack</li>
                 <li>Bootstrap</li>
+                <li>classnames</li>
             </ul>
         </div>
     );

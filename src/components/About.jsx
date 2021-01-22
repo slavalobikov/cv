@@ -5,7 +5,6 @@ import s from './About.module.css'
 
 const About = (props) => {
 
-    console.log(props)
 
     return (
         <div className={s.wrapper}>
